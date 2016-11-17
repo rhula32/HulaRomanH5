@@ -4,8 +4,7 @@ public class Testing
   {
     IntegerList myList = new IntegerList();
     
-    myList.random(50);
-    myList.sort();
+    myList.randomGenerator(100);
     myList.print();
   }
 }
