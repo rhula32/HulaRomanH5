@@ -8,7 +8,7 @@ public class IntegerList
   { 
     this.first = null;
     this.last = null;
-    this.maxInteger = 100;
+    this.maxInteger = 200;
   }
   
   public Node getFirst() 
