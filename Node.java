@@ -1,8 +1,8 @@
 public class Node 
 {
-  private int integer;
-  private Node prevNode;
-  private Node nextNode;
+  public int integer;
+  public Node prevNode;
+  public Node nextNode;
 
   Node(int i) 
   { 

@@ -116,7 +116,7 @@ public class IntegerList
     return this.first == null;
   }
   
-  public void print() 
+  public void printUnsorted() 
   {
     Node current = this.first;
     System.out.println("Printing the unsorted list: ");

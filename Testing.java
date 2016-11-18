@@ -2,9 +2,12 @@ public class Testing
 {
   public static void main (String [] args) 
   {
-    IntegerList myList = new IntegerList();
+    SortList myList = new SortList();
     
     myList.randomGenerator(100);
-    myList.print();
+    myList.printUnsorted();
+    System.out.println();
+    myList.bubbleSort();
+    myList.printSorted();
   }
 }
